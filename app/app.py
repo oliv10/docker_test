@@ -1,3 +1,5 @@
+import pandas
+
 class app:
     def __init__(self, name: str, age: int):
         self.name = name
