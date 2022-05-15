@@ -1,12 +1,8 @@
 {
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        ".",
-        "-p",
-        "test_*.py"
+    "python.linting.enabled": false,
+    "python.testing.pytestArgs": [
+        "tests"
     ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true,
-    "python.linting.enabled": false
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
 }
