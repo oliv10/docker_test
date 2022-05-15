@@ -1,4 +1,4 @@
-from app import *
+from src import *
 
 if __name__ == "__main__":
     man = app("Oliver", 21)
